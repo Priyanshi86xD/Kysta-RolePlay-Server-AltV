@@ -1,0 +1,7 @@
+{
+    "db_url": "",
+    "db_database": "alt",
+    "db_collections": ["accounts", "characters", "weapons", "apartments", "vehicles"],
+    "db_username": null,
+    "db_password": null
+}
