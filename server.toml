@@ -10,7 +10,7 @@ players = 100
 port = 7788
 streamingDistance = 400
 migrationDistance = 1500
-website = 'freecity.wongkito.my.id'
+
 resources = [
     'freeroam',
     'addon-map',
