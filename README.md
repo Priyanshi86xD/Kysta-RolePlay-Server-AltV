@@ -1,50 +1,86 @@
-# What it is Kysta Grand Roleplay alt-v
-**Welcome to Alt:V GTA 5 Roleplay, an immersive and dynamic gaming experience that allows you to step into the bustling streets of Los Santos. Our server offers a realistic roleplaying environment where players can create unique characters and interact with a vibrant community. Whether you choose to be a law-abiding citizen, a daring criminal, or an ambitious entrepreneur, the opportunities are endless. Engage in thrilling heists, establish your own businesses, or join forces with fellow players to form gangs and dominate the city. With a vast array of customizable features, including character creation, property ownership, and an in-depth economy system, you have the power to shape your destiny in this sprawling metropolis. So gear up, choose your path, and embark on a journey like no other in Alt:V GTA 5 Roleplay. Join us today and let your imagination run wild in the virtual world of Los Santos!**
+# Open Source - Nametags
 
-# 📃 Features
-- Character System
-- Player System
-- Ped Sync
-- Vehicle Sync
-- Buisness
-- Jobs (Police , Fireman , EMC , Cab etc)
-- Vehicle Tune
-- Car Delearship
-- Garages
-- Fuel System
-- House System
-- Statitics
-- Barber
-- Language English
-- Tatto
-- Shop System
-- Survival
-- Races
-- Mini Games
-- etc
+[❤️ Become a Sponsor of my Open Source Work](https://github.com/sponsors/Stuyk/)
 
-# How to install in Windows
-1. Install Mongo DB Compass https://www.mongodb.com/try/download/compass
-2. Install NVM https://github.com/coreybutler/nvm-windows/releases
-3. Install Kysta-Grand-Roleplay alt-v
-4. Install Alt:v Server files -(Data File , Js module , Js Bytecode, C# Module)
-5. Paste this command in your cmd
-   bash```
-   nvm install 18   ```
-  
-6. Then Paste this command in your cmd
-   bash```
-   nvm use 18   ```
+[⌨️ Learn how to script for alt:V](https://altv.stuyk.com/)
 
-7. After installing alt:v server file paste to kysta-grand roleplay alt-v
-8. then write in your folder cmd 
-9. https://github.com/Priyanshi86xD/kysta-grand-roleplay-alt-v/assets/122144999/191b0795-d5aa-480e-8095-75b3a85c6f42
-10. Paste this command bash``` npm i ```
-11. Change dburl in config.json to bash``` mongodb://localhost:27017```
-12. Then open Alt-server.exe
+[💡 Need a Roleplay Script? Try Athena!](https://gtavathena.com/)
 
-# How to install in Linux
-Soon
+⭐ This repository if you found it useful!
 
-#Support 
-Join our Discord Server https://discord.gg/UKgDq7dr9J
+---
+
+![](https://i.imgur.com/vvkbD90.jpg)
+
+# Description
+
+This repository provides a simple nametag system with optional health bars and armour bars. As well as hiding nametags when players are inside of vehicles. This nametag system scales based on distance as well as checks if you have direct line of sight with the opposing players.
+
+Nametags can be toggled completely off or on for a single player.
+
+## Installing Dependencies / Installation
+
+**I cannot stress this enough. Ensure you have NodeJS 13+ or you will have problems.**
+
+-   [NodeJS 13+](https://nodejs.org/en/download/current/)
+-   An Existing or New Gamemode
+-   General Scripting Knowledge
+
+After simply add the name of this resource to your `server.cfg` resource section.
+
+`altv-os-nametags`
+
+Then simply clone this repository into your main server resources folder.
+
+```
+cd resources
+git clone https://github.com/Stuyk/altv-os-nametags
+```
+
+Ensure your `package.json` includes this property:
+
+```json
+"type": "module"
+```
+
+# Adding Custom Names to Players
+
+The custom names are automatically synced once you set the synced meta.
+However, they will not show until you set a configuration on the player.
+
+### Example
+
+```js
+alt.on('playerConnect', player => {
+    player.setSyncedMeta('NAME', 'Johnny_Delgado');
+});
+```
+
+# Configuring Player's Nametags
+
+Setting the configuration takes the following properties.
+
+| Argument              | Description                                                              |
+| --------------------- | ------------------------------------------------------------------------ |
+| `player`              | Pass the alt.Player from any event.                                      |
+| `showNameTags`        | Let the player draw all nametags of all players locally.                 |
+| `hideNamesInVehicles` | Hide the nametags of players in vehicles if you're not in their vehicle. |
+| `showBarsOnAim`       | Show Health and Armour Bars when you are aiming at a player.             |
+| `maxDrawDistance`     | Set the maximum draw distance for nametags. Default: 100                 |
+
+### Example
+
+```js
+alt.on('playerConnect', player => {
+    player.setSyncedMeta('NAME', 'Johnny_Delgado');
+    alt.emit('nametags:Config', player, true, false, true, 100);
+});
+```
+
+# Other alt:V Open Source Resources
+
+-   [Authentication by Stuyk](https://github.com/Stuyk/altv-os-auth)
+-   [Discord Authentication by Stuyk](https://github.com/Stuyk/altv-discord-auth)
+-   [Global Blip Manager by Dzeknjak](https://github.com/jovanivanovic/altv-os-global-blip-manager)
+-   [Global Marker Manager by Dzeknjak](https://github.com/jovanivanovic/altv-os-global-marker-manager)
+-   [Chat by Dzeknjak](https://github.com/jovanivanovic/altv-os-chat)

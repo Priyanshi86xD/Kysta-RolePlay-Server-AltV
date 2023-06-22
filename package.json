@@ -1,14 +1,22 @@
 {
-	"dependencies": {
-		"simplymongo": "^2.1.2",
-		"sjcl": "^1.0.8"
-	},
-	"type": "module",
-	"devDependencies": {
-		"@altv/types-client": "^2.7.2",
-		"@altv/types-natives": "^1.5.4",
-		"@altv/types-server": "^2.7.6",
-		"@altv/types-shared": "^1.4.9",
-		"@altv/types-webview": "^1.0.5"
-	}
+  "type": "module",
+  "name": "altv-os-nametags",
+  "version": "1.0.0",
+  "description": "simple nametags",
+  "main": "server/startup.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ],
+  "author": "",
+  "license": "MIT License",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }
