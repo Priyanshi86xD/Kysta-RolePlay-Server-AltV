@@ -40,7 +40,8 @@
 8. then write in your folder cmd 
 9. https://github.com/Priyanshi86xD/kysta-grand-roleplay-alt-v/assets/122144999/191b0795-d5aa-480e-8095-75b3a85c6f42
 10. Paste this command bash``` npm i ```
-11. Then open Alt-server.exe
+11. Change dburl in config.json to bash``` mongodb://localhost:27017```
+12. Then open Alt-server.exe
 
 # How to install in Linux
 Soon
