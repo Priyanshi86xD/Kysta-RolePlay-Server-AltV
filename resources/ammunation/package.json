@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "ammunation",
+  "version": "1.0.0",
+  "description": "Ammunation script",
+  "main": "server.js",
+  "repository": {
+
+  },
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

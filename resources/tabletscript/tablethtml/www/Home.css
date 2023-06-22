@@ -1,0 +1,287 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("https://cdn.vox-cdn.com/thumbor/ZeIHUNGRet37PUEVhULFC8ymVkw=/0x0:3840x2160/1200x800/filters:focal(1519x188:2133x802)/cdn.vox-cdn.com/uploads/chorus_image/image/70615667/GTA_Online___3_4_2022___Image_5.0.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 253px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 48px auto 60px;
+  padding: 6px 69px 7px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+} .u-section-2 {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/ZeIHUNGRet37PUEVhULFC8ymVkw=/0x0:3840x2160/1200x800/filters:focal(1519x188:2133x802)/cdn.vox-cdn.com/uploads/chorus_image/image/70615667/GTA_Online___3_4_2022___Image_5.0.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 550px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  background-image: none;
+  margin: 50px 0;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  min-height: 451px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 20px;
+}
+
+.u-section-2 .embed-responsive-1 {
+  position: absolute;
+}
+
+.u-section-2 .u-layout-cell-2 {
+  min-height: 501px;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 15px 46px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: "Alfa Slab One";
+  margin: -1px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 12px 6px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 500px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 413px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-weight: normal;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-layout-wrap-1 {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+} .u-section-3 {
+  background-image: linear-gradient(black, #ecf30a);
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 655px;
+}
+
+.u-section-3 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-image: linear-gradient(#292d33, #d9d9d9);
+}
+
+.u-section-3 .u-layout-cell-1 {
+  min-height: 535px;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 30px 0;
+}
+
+.u-section-3 .u-text-1 {
+  font-family: "Changa One";
+  background-image: none;
+  margin: 94px 53px 0;
+}
+
+.u-section-3 .u-btn-1 {
+  background-image: linear-gradient(#db545a, #a35559);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  margin: -9px auto 0;
+  padding: 20px 107px 20px 105px;
+}
+
+.u-section-3 .u-btn-2 {
+  background-image: linear-gradient(to right, #478ac9, #e68387);
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  margin: 41px auto 0;
+  padding: 19px 71px 19px 69px;
+}
+
+.u-section-3 .u-image-1 {
+  min-height: 535px;
+  background-image: url("https://asset.vg247.com/gta-6-release-date-latest-location-characters.jpg/BROK/thumbnail/1200x1200/quality/100/gta-6-release-date-latest-location-characters.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 8px 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 430px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    position: relative;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 441px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 441px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 353px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 338px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 580px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 507px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 439px;
+  }
+
+  .u-section-3 .u-image-1 {
+    min-height: 319px;
+  }
+}

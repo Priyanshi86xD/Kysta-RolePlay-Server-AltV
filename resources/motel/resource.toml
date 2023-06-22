@@ -1,0 +1,4 @@
+client-files = [ 'client.js', 'house.js', 'objects.js' ]
+client-main = 'client.js'
+main = 'server.js'
+type = 'js'

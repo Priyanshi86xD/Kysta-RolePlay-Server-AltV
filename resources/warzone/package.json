@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "name": "warzone",
+  "version": "1.0.0",
+  "description": "battle arena",
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

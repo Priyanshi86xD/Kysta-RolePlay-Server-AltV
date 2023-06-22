@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "lsc",
+  "version": "1.0.0",
+  "description": "Lost Santos Customs",
+  "main": "server.js",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

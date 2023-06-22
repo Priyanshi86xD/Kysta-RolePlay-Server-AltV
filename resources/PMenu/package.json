@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "pmenu",
+  "version": "1.0.0",
+  "description": "Player Functional Menu",
+  "main": "server.js",
+  "repository": {
+  },
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

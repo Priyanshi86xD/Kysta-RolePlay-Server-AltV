@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "penegakhukum",
+  "version": "1.0.0",
+  "description": "polisi simulator",
+  "main": "server.js",
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

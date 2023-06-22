@@ -1,0 +1,34 @@
+[
+  {
+    "type": "package",
+    "name": "chalk"
+  },
+  {
+    "type": "package",
+    "name": "simplymongo"
+  },
+  {
+    "type": "package",
+    "name": "sjcl"
+  },
+  {
+      "type": "question",
+      "question": "What is your Mongo DB url? (Recommended: mongodb://localhost:27017)"
+  },
+  {
+      "type": "question",
+      "question": "What database name do you want to use? (Recommended: altv)"
+  },
+  {
+      "type": "question",
+      "question": "Mongo Username if necessary? (Skip if Necessary)"
+  },
+  {
+      "type": "question",
+      "question": "Mongo Password if necessary? (Skip if Necessary)"
+  },
+  {
+      "type": "postinstall",
+      "file": "./scripts/config.js"
+  }
+]

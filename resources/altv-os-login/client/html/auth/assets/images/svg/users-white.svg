@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 69.333336 74.533333"
+   height="74.533333"
+   width="69.333336"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path16"
+         d="M 0,55.9 H 52 V 0 H 0 Z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,74.533333)"
+     id="g10"><g
+       id="g12"><g
+         clip-path="url(#clipPath18)"
+         id="g14"><g
+           transform="translate(34,34.0002)"
+           id="g20"><path
+             id="path22"
+             style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 0,-4.4 -3.6,-8 -8,-8 -4.4,0 -8,3.6 -8,8 v 8 c 0,4.4 3.6,8 8,8 4.4,0 8,-3.6 8,-8 z m 17,-22.2 c -1.2,3.4 -3.5,6.5 -6.7,8.6 l -0.3,0.1 c -2.4,1.6 -5.1,2.9 -7.9,3.8 2.5,2.6 3.9,6 3.9,9.6 v 8 c 0,7.7 -6.3,14 -14,14 -7.7,0 -14,-6.3 -14,-14 v -8 c 0,-3.6 1.4,-7 3.9,-9.6 -2.8,-0.9 -5.4,-2.2 -7.9,-3.8 l -0.3,-0.2 C -31.1,-16.9 -34,-22.2 -34,-28 v -6 H 6.5 c -0.3,0.9 -0.5,1.9 -0.5,3 0,1.1 0.2,2.1 0.5,3 H -28 c 0,3.8 1.9,7.3 5,9.3 l 0.3,0.2 c 8.9,5.9 20.4,5.9 29.3,0 L 7,-18.7 c 1.7,-1.1 3,-2.6 3.8,-4.4 1.2,0.7 2.7,1 4.2,1 0.7,0.1 1.4,0 2,-0.1" /></g><g
+           transform="translate(49,5.9997)"
+           id="g24"><path
+             id="path26"
+             style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 1.657,0 3,-1.343 3,-3 0,-1.656 -1.343,-3 -3,-3 -1.657,0 -3,1.344 -3,3 0,1.657 1.343,3 3,3" /></g></g></g></g></svg>

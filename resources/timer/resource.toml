@@ -1,0 +1,3 @@
+client-main = 'client/client.js'
+main = 'server/index.js'
+type = 'js'

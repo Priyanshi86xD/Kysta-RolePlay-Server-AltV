@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "name": "interface",
+  "version": "1.0.0",
+  "description": "interface",
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

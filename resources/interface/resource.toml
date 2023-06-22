@@ -1,0 +1,4 @@
+client-files = [ 'client.js', 'playerpoints.js', 'airplane.js', 'NativeUI/*' ]
+client-main = 'client.js'
+main = 'server.js'
+type = 'js'

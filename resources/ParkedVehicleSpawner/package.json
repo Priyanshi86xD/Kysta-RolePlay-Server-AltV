@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "parkedvehiclespawner",
+  "version": "1.0.0",
+  "description": "vehicle spawner",
+  "main": "server.js",
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ]
+}

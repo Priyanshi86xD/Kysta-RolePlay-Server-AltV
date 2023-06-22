@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "name": "peds",
+  "version": "1.0.0",
+  "description": "Peds spawner",
+  "main": "server.js"
+}

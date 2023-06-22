@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData> 
+    <Item>
+      <modelName>ocnetrongt</modelName>
+      <colors>
+	<Item>
+          <indices content="char_array">
+            0
+            27
+            7
+            0
+            27
+            1
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+	<Item>
+          <indices content="char_array">
+            4
+            38
+            134
+            0
+            38
+            2
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+	<Item>
+          <indices content="char_array">
+            112
+            70
+            134
+            0
+            70
+            117
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>896_etrongt_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+	</Probabilities>
+      </plateProbabilities>
+      <lightSettings value="9955" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

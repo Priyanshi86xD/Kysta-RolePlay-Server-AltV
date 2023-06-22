@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "name": "garage",
+  "version": "1.0.0",
+  "description": "player garage",
+  "main": "server/startup.js"
+}

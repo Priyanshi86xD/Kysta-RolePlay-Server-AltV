@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "time & weather sync"
+
+}

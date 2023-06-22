@@ -1,0 +1,4 @@
+client-files = [ 'client.js', 'taxijob.js', 'busjob.js', 'ammujob.js', 'trucking.js', 'towing.js', 'kurirpos.js', 'kotakpos.js', 'fireman.js', 'clubjob.js' ]
+client-main = 'client.js'
+main = 'server.js'
+type = 'js'

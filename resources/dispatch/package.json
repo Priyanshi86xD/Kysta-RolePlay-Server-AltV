@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "name": "dispatch",
+  "version": "1.0.0",
+  "description": "police dispatch",
+  "main": "server.js"
+}

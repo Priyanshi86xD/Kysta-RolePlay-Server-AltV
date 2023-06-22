@@ -1,0 +1,4 @@
+client-files = [ 'client.js', 'ipls.js', 'islandpeds.js', 'hangar.js' ]
+client-main = 'client.js'
+main = 'server.js'
+type = 'js'

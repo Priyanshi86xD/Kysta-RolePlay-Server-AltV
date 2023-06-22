@@ -1,0 +1,4 @@
+client-files = [ 'client.js', 'barber.js', 'clothes.js', 'store.js', 'tatshop.js', 'overlays.js', 'gstation.js', 'carwash.js', 'hangar.js', 'NativeUI/*' ]
+client-main = 'client.js'
+main = 'server.js'
+type = 'js'
