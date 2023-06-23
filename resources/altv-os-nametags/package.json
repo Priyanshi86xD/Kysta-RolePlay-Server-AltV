@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "altv-os-nametags",
+  "version": "1.0.0",
+  "description": "simple nametags",
+  "main": "server/startup.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "altv",
+    "noclip",
+    "betternoclip"
+  ],
+  "author": "",
+  "license": "MIT License",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
