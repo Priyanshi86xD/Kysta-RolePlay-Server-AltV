@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Open Source - Chat for alt:V</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link type="text/less" rel="stylesheet" href="./style.less" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="chat" v-if="visible">
+                <div class="messages" ref="messages">
+                    <div v-for="message, index of reversedMessages" class="message" :inner-html.prop="message | colorify"></div>
+                </div>
+                <div class="input">
+                    <input tabindex="-1" type="text" v-model="currentMessage" ref="input" v-on:keyup.enter="send" v-on:keyup.esc="unfocus" v-on:keyup.page-down="pageDown" v-on:keyup.page-up="pageUp" />
+                </div>
+            </div>
+        </div>
+
+        <script src="./less.min.js"></script>
+        <script src="./vue.min.js"></script>
+        <script src="./app.js"></script>
+
+        <script>
+            less.pageLoadFinished.then(() => (document.body.style.display = 'block'));
+        </script>
+    </body>
+</html>
