@@ -1,0 +1,14 @@
+{
+	"dependencies": {
+		"simplymongo": "^2.1.2",
+		"sjcl": "^1.0.8"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@altv/types-client": "^2.5.0",
+		"@altv/types-natives": "^1.5.3",
+		"@altv/types-server": "^2.6.3",
+		"@altv/types-shared": "^1.4.1",
+		"@altv/types-webview": "^1.0.5"
+	}
+}
